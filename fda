@@ -1,0 +1,6 @@
+insert into userstore values('10000094','tcshyd',null,'customer','puja');
+insert into userstore values('10000093','tcshyd',null,'bankemp','puja');
+insert into userstore values('10000095','tcshyd',null,'cashier','puja');
+select * from userstore;
+delete from userstore where ssnid='1000009'
+update userstore set ssnid='100000094' where ssnid='10000094'

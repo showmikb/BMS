@@ -1,0 +1,3 @@
+select * from userstore;
+
+alter table userstore add name varchar2(30);

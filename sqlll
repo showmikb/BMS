@@ -1,0 +1,6 @@
+insert into userstore values('210119946','asdf',null,'customer','somebody')
+
+
+update userstore set name='asdfasd' where ssnid='12211221'
+
+select * from userstore;
